@@ -1,0 +1,89 @@
+[
+{
+"name": "empty_body",
+"passed": true,
+"code": 400,
+"error": "Пустое тело запроса"
+},
+{
+"name": "invalid_json",
+"passed": true,
+"code": 400,
+"error": "Некорректный формат JSON"
+},
+{
+"name": "json_array",
+"passed": true,
+"code": 400,
+"error": "Ожидается JSON-объект"
+},
+{
+"name": "missing_order_id",
+"passed": true,
+"code": 400,
+"error": "Отсутствует обязательное поле order_id"
+},
+{
+"name": "empty_order_id",
+"passed": true,
+"code": 400,
+"error": "Поле order_id не может быть пустым"
+},
+{
+"name": "missing_amo_id",
+"passed": true,
+"code": 400,
+"error": "Отсутствует обязательное поле amo_id"
+},
+{
+"name": "invalid_order_guid",
+"passed": true,
+"code": 400,
+"error": "Передан некорректный формат GUID (order_id)"
+},
+{
+"name": "unknown_order",
+"passed": true,
+"code": 404,
+"error": "Документ TeMa_ЗаказПокупателя с таким ID не найден в базе 1С"
+},
+{
+"name": "normal",
+"passed": true,
+"code": 200,
+"accounting_groups_verified": true,
+"document_status": "posted"
+},
+{
+"name": "different_groups",
+"passed": true,
+"code": 202,
+"document_status": "draft",
+"fixtures_removed": true
+},
+{
+"name": "missing_first",
+"passed": true,
+"code": 400,
+"error": "В карточке товара не заполнена номенклатурная группа: CODEX VERIFY EMPTY GROUP"
+},
+{
+"name": "missing_second",
+"passed": true,
+"code": 400,
+"error": "В карточке товара не заполнена номенклатурная группа: CODEX VERIFY SECOND PRODUCT"
+},
+{
+"name": "empty_order",
+"passed": true,
+"code": 400,
+"error": "В заказе TeMa_ЗаказПокупателя нет товаров для переноса!"
+},
+{
+"name": "empty_product",
+"passed": true,
+"code": 200,
+"accounting_groups_verified": true,
+"document_status": "posted"
+}
+]

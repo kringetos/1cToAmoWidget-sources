@@ -1,0 +1,51 @@
+{
+  "snapshot_date": "2026-10-26",
+  "timezone": "Asia/Krasnoyarsk",
+  "database_kind": "test copy",
+  "platform_used_for_dump": "8.3.27.1936",
+  "configuration_last_verified": "Бухгалтерия предприятия, редакция 3.0 (3.0.197.22)",
+  "format": "1C Designer DumpIB (.dt)",
+  "storage": "Git LFS for .dt parts; ordinary Git for extension and sources",
+  "database": {
+    "filename": "InfoBase26-2026-10-26.dt",
+    "bytes": 2459768084,
+    "sha256": "61df8073a1bb441c6e90b1dc05ea8ae61cf9a616649530b3dcb8454a3c863700",
+    "parts": [
+      "InfoBase26-2026-10-26.dt.part001",
+      "InfoBase26-2026-10-26.dt.part002",
+      "InfoBase26-2026-10-26.dt.part003"
+    ]
+  },
+  "files": [
+    {
+      "path": "InfoBase26-2026-10-26.dt.part001",
+      "bytes": 1073741824,
+      "sha256": "c456e08ba29fab9eba5482908ee5fff3b2690434c1f4ff4891168ed99ab9c239"
+    },
+    {
+      "path": "InfoBase26-2026-10-26.dt.part002",
+      "bytes": 1073741824,
+      "sha256": "19b30f85a463e8f798e542a24333ea0d789e9c0d07c79ea82f96aba9fd91c33e"
+    },
+    {
+      "path": "InfoBase26-2026-10-26.dt.part003",
+      "bytes": 312284436,
+      "sha256": "d29a8d09a80e0f93dcc9ecda69fac3a41ec245ecc823485f32d30cdefb6560c3"
+    },
+    {
+      "path": "extension/ИнтеграцияAmoCRM_исправление_группы.cfe",
+      "bytes": 68809,
+      "sha256": "0629db11e7c8d5cfb663b8618187dd14b0d8880bea01d96e339033c85bbca649"
+    },
+    {
+      "path": "extension/TeMa_HTTPСервис.Module.bsl",
+      "bytes": 153539,
+      "sha256": "fa092ffaba6b1713c51fcf90376f916ce02a77dd79d323ba1ac8062f2aba7825"
+    },
+    {
+      "path": "extension/nomenclature-group.patch",
+      "bytes": 1997,
+      "sha256": "c7cd56ceed827e8c12700a3d5adff52d80ce9c7153ded257dc3ba6ce72f3b477"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# Локальные зависимости и подготовленные комплекты
+node_modules/
+deliverables/
+__pycache__/
+*.pyc
+.env
+.env.*

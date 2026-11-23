@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" version="2.17">
+<ExternalDataProcessor uuid="fc25d4ca-787a-4330-91a3-15dff8f3a189">
+<InternalInfo>
+<xr:ContainedObject><xr:ClassId>c3831ec8-d8d5-4f93-8a22-f9bfae07327f</xr:ClassId><xr:ObjectId>7f15b78b-4e2d-44ba-af13-c73ef7c764b5</xr:ObjectId></xr:ContainedObject>
+<xr:GeneratedType name="ExternalDataProcessorObject.PriceTestAmo" category="Object"><xr:TypeId>a0fd558b-e555-411a-a848-d2297c237c5b</xr:TypeId><xr:ValueId>004dd528-40d4-4d44-962c-7fbcba2e3370</xr:ValueId></xr:GeneratedType>
+</InternalInfo>
+<Properties><Name>PriceTestAmo</Name><Synonym/><Comment/><DefaultForm/><AuxiliaryForm/></Properties>
+<ChildObjects/>
+</ExternalDataProcessor></MetaDataObject>
+

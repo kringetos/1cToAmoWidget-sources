@@ -1,0 +1,616 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<HTTPService uuid="81aae077-fb5f-4974-aacf-e750168a4033">
+		<Properties>
+			<Name>TeMa_HTTPСервис</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Te ma HTTPСервис</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<RootURL>integration</RootURL>
+			<ReuseSessions>AutoUse</ReuseSessions>
+			<SessionMaxAge>20</SessionMaxAge>
+		</Properties>
+		<ChildObjects>
+			<URLTemplate uuid="0b7a1a2c-0ae2-41f5-ba11-a0ca92457f9e">
+				<Properties>
+					<Name>Номенклатура</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/v1/nomenclature</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="bd849db3-60b8-40db-af1b-d57813936148">
+						<Properties>
+							<Name>ПолучитьНоменклатуру</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Получить номенклатуру</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>НоменклатураПолучитьНоменклатуру</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="0a8a3964-5e48-41d2-b1ab-54a6ba9a05c9">
+				<Properties>
+					<Name>Склады</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Склады</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/v1/warehouses</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="3f096c79-7a6f-428d-820d-9213ee555305">
+						<Properties>
+							<Name>ПолучитьСклады</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Получить склады</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>СкладыПолучитьСклады</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="9c564dc9-f495-405e-bdc4-dff98cfbb8a3">
+				<Properties>
+					<Name>БанковскиеСчета</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Банковские счета</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/v1/bank_accounts</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="b5cc1370-0f13-457b-93e2-1084511b40c1">
+						<Properties>
+							<Name>ПолучитьСчета</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Получить счета</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>БанковскиеСчетаПолучитьСчета</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="9acd290e-6ee6-4df4-9840-cf37e64ad7a7">
+				<Properties>
+					<Name>Контрагенты</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контрагенты</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/v1/companies</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="d4f937cf-fa7e-48db-880b-65a21e8ff158">
+						<Properties>
+							<Name>СинхронизироватьКонтрагента</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Синхронизировать контрагента</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>КонтрагентыСинхронизироватьКонтрагента</Handler>
+						</Properties>
+					</Method>
+					<Method uuid="3b0187d7-7873-4fc5-914a-eefc86901988">
+						<Properties>
+							<Name>ПолучитьКонтрагента</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Получить контрагента</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>КонтрагентыПолучитьКонтрагента</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="1430f9d0-d15e-4b52-ac43-04629b9eca5a">
+				<Properties>
+					<Name>СтавкаНДС</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ставка НДС</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/v1/vat-rates</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="caa43bb3-29cd-4da6-a76e-817bea17a23b">
+						<Properties>
+							<Name>ПолучитьНДС</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Получить НДС</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>СтавкаНДСПолучитьНДС</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="e7fb2f52-fe13-44f1-bfb7-599a8ad0f958">
+				<Properties>
+					<Name>ВходящиеСделки</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Входящие сделки</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/v1/orders</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="6ee72d0d-7c97-4771-adbc-913f4f3e1d46">
+						<Properties>
+							<Name>СоздатьЗаказ</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Создать заказ</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>ВходящиеСделкиСоздатьЗаказ</Handler>
+						</Properties>
+					</Method>
+					<Method uuid="14a9e795-fa8d-4bf2-9f4f-fdb70ad42b3d">
+						<Properties>
+							<Name>ПолучитьСписокЗаказов</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Получить список заказов</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>ВходящиеСделкиПолучитьСписокЗаказов</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="893801d7-7608-4622-8cbd-49c60aec8b39">
+				<Properties>
+					<Name>ГенерацияСчета</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Генерация счета</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/v1/generate-invoice</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="870bc7fa-0d9b-4032-bad9-2cf30e0eebb5">
+						<Properties>
+							<Name>СоздатьСчет</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Создать счет</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>ГенерацияСчетаСоздатьСчет</Handler>
+						</Properties>
+					</Method>
+					<Method uuid="bbef7c56-95a1-4839-87e7-f3c02f615415">
+						<Properties>
+							<Name>ПолучитьСписокСчетов</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Получить список счетов</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>ГенерацияСчетаПолучитьСписокСчетов</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="3268355a-03ce-4bba-b6bf-c19e0c73d172">
+				<Properties>
+					<Name>ПолучениеСчетаPDF</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Получение счета PDF</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/v1/invoices/{id}/pdf</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="a314053e-d14f-4a17-b1be-761d547f61a1">
+						<Properties>
+							<Name>СкачатьPDFСчета</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Скачать PDFСчета</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>ПолучениеСчетаPDFСкачатьPDFСчета</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="44a9528f-644a-4b63-963d-b1ffebbfee61">
+				<Properties>
+					<Name>ГенерацияУПД</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Генерация УПД</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/v1/generate-upd</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="9fb9e929-8735-426b-a70b-4eca99d48421">
+						<Properties>
+							<Name>СоздатьУПД</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Создать УПД</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>ГенерацияУПДСоздатьУПД</Handler>
+						</Properties>
+					</Method>
+					<Method uuid="d7ddfe6d-a160-4409-a2c1-37ccaef0de68">
+						<Properties>
+							<Name>ПолучитьСписокУПД</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Получить список УПД</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>ГенерацияУПДПолучитьСписокУПД</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="6f9ffd52-bf32-4c4b-bc00-3a6fde41346e">
+				<Properties>
+					<Name>ГенерацияДКП</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Генерация ДКП</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/v1/generate-dkp</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="a324b01e-7759-4aaf-a287-9c579a261e73">
+						<Properties>
+							<Name>СоздатьДКП</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Создать ДКП</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>ГенерацияДКПСоздатьДКП</Handler>
+						</Properties>
+					</Method>
+					<Method uuid="52f2da9e-4f32-4dd7-9cf7-78f3c4b4145a">
+						<Properties>
+							<Name>ПолучитьДКП</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Получить ДКП</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>ГенерацияДКППолучитьДКП</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="12008c5d-e47a-4acd-8fdc-c1835a8408e8">
+				<Properties>
+					<Name>ПолучениеPDFДоговора</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Получение PDFДоговора</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/v1/dogovor/pdf</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="b975a2a1-6660-4141-97d4-9557a425cb5a">
+						<Properties>
+							<Name>СкачатьPDF</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Скачать PDF</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>ПолучениеPDFДоговораСкачатьPDF</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="d2f7934d-0163-494e-8e6e-f837a3523ce5">
+				<Properties>
+					<Name>ТестированиеСвязи</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тестирование связи</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/ping</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="ffc25eee-eb95-4ad3-b1fa-0f1885e6606e">
+						<Properties>
+							<Name>PingTest</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ping test</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>ТестированиеСвязиPingTest</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="60da60e4-31a5-4512-9af4-1ce22fdcccb8">
+				<Properties>
+					<Name>ГенерацияДП</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Генерация ДП</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/v1/generate-dp</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="d244191a-c843-4c7c-a3ef-7563dc0e4c6c">
+						<Properties>
+							<Name>СоздатьДП</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Создать ДП</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>ГенерацияДПСоздатьДП</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="fd89edaf-e25d-4655-bd28-6b41e16f0aff">
+				<Properties>
+					<Name>ПолучениеУПДPDF</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Получение УПДPDF</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/v1/upd/{id}/pdf</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="6b660f0a-d0a2-476b-a660-bc69120719b8">
+						<Properties>
+							<Name>СкачатьPDFУПД</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Скачать PDFУПД</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>ПолучениеУПДPDFСкачатьPDFУПД</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="eda725dd-e0f5-4d38-97c0-80c80de54e62">
+				<Properties>
+					<Name>CORS</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>CORS</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/CORS</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="ed1b9174-bca5-4d08-b182-c2122583f0c1">
+						<Properties>
+							<Name>Метод1</Name>
+							<Synonym/>
+							<Comment/>
+							<HTTPMethod>OPTIONS</HTTPMethod>
+							<Handler>CORSМетод1</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="426d23f7-38a5-46e3-b536-69562938c0cb">
+				<Properties>
+					<Name>КонкретныйЗаказ</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Конкретный заказ</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/v1/orders/get</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="acacd0d0-6f69-49ea-afae-875d24b13721">
+						<Properties>
+							<Name>ПолучитьЗаказ</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Получить заказ</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>КонкретныйЗаказПолучитьЗаказ</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="54cc1c45-3594-4045-80ef-579ea28d99ad">
+				<Properties>
+					<Name>Логи</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Логи</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/api/logs</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="6c6eba70-9346-4834-8a20-3956349fa360">
+						<Properties>
+							<Name>Создать</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Создать</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>ЛогиСоздать</Handler>
+						</Properties>
+					</Method>
+					<Method uuid="cf4c11eb-9fa8-42c9-ad84-8ed86a785fad">
+						<Properties>
+							<Name>Получить</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Получить</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>ЛогиПолучить</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="58aadf45-a893-45dc-92f7-8dd08ceaa4c2">
+				<Properties>
+					<Name>ДоговорыКонтрагента</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Договоры контрагента</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/v1/dog_pros</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="fadb0741-49bb-4832-ab26-3932c82d1705">
+						<Properties>
+							<Name>Метод1</Name>
+							<Synonym/>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>ДоговорыКонтрагентаМетод1</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+		</ChildObjects>
+	</HTTPService>
+</MetaDataObject>

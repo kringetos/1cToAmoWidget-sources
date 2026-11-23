@@ -1,0 +1,62 @@
+{
+  "widget": {
+    "name": "widget.name",
+    "description": "widget.description",
+    "short_description": "widget.short_description",
+    "version": "1.0.191",
+    "interface_version": 2,
+    "init_once": false,
+    "locale": ["ru"],
+    "installation": true,
+    "support": {
+      "link": "https://24tema.ru",
+      "email": "support@24tema.ru"
+    }
+  },
+  "locations": [
+    "lcard",
+    "ccard",
+    "comcard",
+    "advanced_settings"
+  ],
+  "settings": {
+    "server_url": {
+      "name": "settings.server_url",
+      "type": "text",
+      "required": false
+    },
+    "login_1c": {
+      "name": "settings.login_1c",
+      "type": "text",
+      "required": false
+    },
+    "password_1c": {
+      "name": "settings.password_1c",
+      "type": "text", 
+      "required": false
+    },
+    "deal_button_field": {
+      "name": "settings.deal_button_field",
+      "type": "text",
+      "required": false
+    },
+    "company_button_field": {
+      "name": "settings.company_button_field",
+      "type": "text",
+      "required": false
+    },
+    "Access_token_Amocrm": {
+      "name": "settings.Access_token_Amocrm",
+      "type": "text",
+      "required": false
+    },
+    "n8n_url": {
+      "name": "settings.n8n_url",
+      "type": "text",
+      "required": false
+    }
+  },
+  "advanced": {
+    "title": "advanced.title"
+  }
+}

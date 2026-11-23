@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-26",
+  "base_commit": "1427ab8",
+  "platform_verified": "8.5.1.1522",
+  "cfe": "ИнтеграцияAmoCRM_цены_договоры.cfe",
+  "bytes": 69193,
+  "sha256": "a932f2511c3ec41ab267b592b85de4ed613bee19d759ff02f9eb4ee676fff5f4",
+  "module_sources": [
+    {
+      "path": "src/CommonModules/TeMa_СобытияСервера/Ext/Module.bsl",
+      "sha256": "a5ff0c0e518753412dac3b2fdad228e625bd58833ae5f3db81eaeb06efdb35bd"
+    },
+    {
+      "path": "src/CommonModules/МойМодульПечати/Ext/Module.bsl",
+      "sha256": "5b9ca63534d82c98ae574b95b344f9855256b66e1474a55000b1880f9de3d14a"
+    },
+    {
+      "path": "src/Documents/ПоступлениеНаРасчетныйСчет/Ext/ObjectModule.bsl",
+      "sha256": "bdc5e7ebe32a6e7781a8404c06f6efa789265076e13c578b85e51f08bb608a13"
+    },
+    {
+      "path": "src/Documents/СчетНаОплатуПокупателю/Ext/ObjectModule.bsl",
+      "sha256": "82ba4b5b1457a1d70df6e8091ce594a5a8c72cf220fe23535eb7564d5b745459"
+    },
+    {
+      "path": "src/HTTPServices/TeMa_HTTPСервис/Ext/Module.bsl",
+      "sha256": "57ac656d66e501eb39c23179c29f82fb5aa6a0c923ec6b8503a91a9bac3d6ccd"
+    }
+  ],
+  "price_contract_scenarios_passed": 4,
+  "regression_scenarios_passed": 14
+}

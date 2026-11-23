@@ -1,0 +1,27 @@
+[
+  {
+    "module": "CommonModules/TeMa_СобытияСервера/Ext/Module.bsl",
+    "sha256": "243a951b2a84a642779ee86fbe701775f15116ba8f44f48df5d525d6e015fee3",
+    "matches_cfe": true
+  },
+  {
+    "module": "CommonModules/МойМодульПечати/Ext/Module.bsl",
+    "sha256": "5b9ca63534d82c98ae574b95b344f9855256b66e1474a55000b1880f9de3d14a",
+    "matches_cfe": true
+  },
+  {
+    "module": "Documents/ПоступлениеНаРасчетныйСчет/Ext/ObjectModule.bsl",
+    "sha256": "bdc5e7ebe32a6e7781a8404c06f6efa789265076e13c578b85e51f08bb608a13",
+    "matches_cfe": true
+  },
+  {
+    "module": "Documents/СчетНаОплатуПокупателю/Ext/ObjectModule.bsl",
+    "sha256": "8b2ea7067f9798fe6f1cc26b108bcdf71f65fa7d8e7b4d3871037d0363d60581",
+    "matches_cfe": true
+  },
+  {
+    "module": "HTTPServices/TeMa_HTTPСервис/Ext/Module.bsl",
+    "sha256": "fa092ffaba6b1713c51fcf90376f916ce02a77dd79d323ba1ac8062f2aba7825",
+    "matches_cfe": true
+  }
+]

@@ -1,0 +1,46 @@
+[
+{
+"name": "vat_22_122_100x23",
+"passed": true,
+"gross": 2300,
+"vat": 414.75,
+"posted_receivable": 2300,
+"net_revenue": 1885.25,
+"contract_links": true,
+"legacy_string_preserved": true,
+"accounting_group": true
+},
+{
+"name": "vat_20_100x23",
+"passed": true,
+"gross": 2300,
+"vat": 383.33,
+"posted_receivable": 2300,
+"net_revenue": 1916.67,
+"contract_links": true,
+"legacy_string_preserved": true,
+"accounting_group": true
+},
+{
+"name": "no_vat_100x23",
+"passed": true,
+"gross": 2300,
+"vat": 0,
+"posted_receivable": 2300,
+"net_revenue": 2300,
+"contract_links": true,
+"legacy_string_preserved": true,
+"accounting_group": true
+},
+{
+"name": "rounding_3x010",
+"passed": true,
+"gross": 0.3,
+"vat": 0.05,
+"posted_receivable": 0.3,
+"net_revenue": 0.25,
+"contract_links": true,
+"legacy_string_preserved": true,
+"accounting_group": true
+}
+]

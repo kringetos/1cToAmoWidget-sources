@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "Manifest size and SHA-256: extension/ИнтеграцияAmoCRM_исправление_группы.cfe",
+    "Manifest size and SHA-256: extension/TeMa_HTTPСервис.Module.bsl",
+    "Manifest size and SHA-256: extension/nomenclature-group.patch",
+    "CFE embedded module equals BSL byte-for-byte: 81aae077-fb5f-4974-aacf-e750168a4033.0/text",
+    "Relative to supplied patch baseline, only ГенерацияУПДСоздатьУПД changed",
+    "Group is read and assigned inside each goods iteration",
+    "Empty-group guard returns 400 before the first document write",
+    "Unsupported VAT attribute removed; SumIncludesVAT preserved"
+  ],
+  "passed": 8,
+  "scope": "Static artifact checks only; patch baseline is reconstructed, not independently obtained"
+}

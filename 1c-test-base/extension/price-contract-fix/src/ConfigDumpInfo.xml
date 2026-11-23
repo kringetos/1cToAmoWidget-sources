@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
+	<ConfigVersions>
+		<Metadata name="Catalog.TeMa_НастройкиПечатиДоговоров" id="1abe7b8e-5731-4d6c-9188-661fd79a4590" configVersion="a258c2acd173cf1a6fc303d21c1769b0cfaa2a98">
+			<Metadata name="Catalog.TeMa_НастройкиПечатиДоговоров.Attribute.ОбработкаТип1" id="457d68b7-b8c1-4421-bce6-b1321c75f390"/>
+			<Metadata name="Catalog.TeMa_НастройкиПечатиДоговоров.Attribute.ОбработкаТип2" id="ac19b574-d134-4d86-be9a-c08fcdf5c989"/>
+		</Metadata>
+		<Metadata name="Catalog.БанковскиеСчета" id="bc493198-c68b-49b3-8005-5e2e8472aeeb" configVersion="97e6d1c7c531c621024caabbb7be76a85ca83cff"/>
+		<Metadata name="Catalog.ДоговорыКонтрагентов" id="f11da3b2-30c2-40fd-86d3-82713c5bf3de" configVersion="6ce87dd45c287533d296e203b10f76d0cba5e238"/>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки" id="ae2e077e-6515-42b3-a849-b591016eb282" configVersion="b3894e5a4e3d8e46ff64e533a16b314d5aaa1f7c"/>
+		<Metadata name="Catalog.КлассификаторЕдиницИзмерения" id="7551f4cb-f493-4c03-8d58-2e09249c85f6" configVersion="3fb51718353c79e89f0e5c8cdd94cd93c488f177"/>
+		<Metadata name="Catalog.Контрагенты" id="73131116-5b21-4fd0-9c52-276b32a78d3e" configVersion="57f7f9e411a8c61c7192c60a6205ccfb65775214"/>
+		<Metadata name="Catalog.Номенклатура" id="1eb34240-d30a-4a4e-8ca4-7dc2b8a671bb" configVersion="6eb251b0871e8def6dad684555578a9f57039ce5">
+			<Metadata name="Catalog.Номенклатура.Attribute.Артикул" id="2ff677ba-80d6-4ad9-be09-05124995194e"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.ЕдиницаИзмерения" id="4d4210f7-e1f2-4c37-9f68-7da7d814b23c"/>
+		</Metadata>
+		<Metadata name="Catalog.Склады" id="065d749b-b010-430f-b695-0abe174c07ad" configVersion="23f8dc3b408a98e496ea03c096abc192c53a7043"/>
+		<Metadata name="CommonForm.TeMa_ДанныеAmoCRM" id="977a4323-a866-42a8-8f74-0a9ef3500f4d" configVersion="568c69e0c25ff2346531c07fae302c3b1634eb29"/>
+		<Metadata name="CommonForm.TeMa_ДанныеAmoCRM.Form" id="977a4323-a866-42a8-8f74-0a9ef3500f4d.0" configVersion="1c946c19aaf2e4fe7d7e3a50e6c3228a200f333f"/>
+		<Metadata name="CommonModule.TeMa_СобытияСервера" id="793d3f9c-50a1-4d17-84f8-142a94200054" configVersion="4ac4fd4ee70e80a1c34886bca20700284ef0375f"/>
+		<Metadata name="CommonModule.TeMa_СобытияСервера.Module" id="793d3f9c-50a1-4d17-84f8-142a94200054.0" configVersion="6affcc9603bc69d3aa51634030fb4fc25d79ee1a"/>
+		<Metadata name="CommonModule.МойМодульПечати" id="6473e541-44bd-4423-8395-d2689bba48a9" configVersion="2d087815d5bf34aac66820e3c6c049f069bd9c10"/>
+		<Metadata name="CommonModule.МойМодульПечати.Module" id="6473e541-44bd-4423-8395-d2689bba48a9.0" configVersion="64ee1222580a9bb7c35bcfec36803eac01f31e5b"/>
+		<Metadata name="Configuration.ИнтеграцияAmoCRM" id="900139fc-72c2-4f5e-b3cb-c3afecf475ae" configVersion="1c9fa19c0adb064ceb667f946d28100bc2b05905"/>
+		<Metadata name="Constant.TeMa_access_token" id="d59f633e-d644-4b3a-b746-4971ccc389ca" configVersion="e612643ab100e6914d6481c2de83427171b6a70e"/>
+		<Metadata name="Constant.TeMa_ДоменнаяЗона" id="a10499f4-fced-4d18-9f5e-16eb08555377" configVersion="44fa0a6f07db99da98423bc76da810c32874e5c3"/>
+		<Metadata name="Document.TeMa_ЗаказПокупателя" id="14cf72a5-27b1-48af-834f-203687062149" configVersion="c3b961367d8378ff0db68020111a2d4da3fdeae6">
+			<Metadata name="Document.TeMa_ЗаказПокупателя.Attribute.АдресДоставки" id="10472a05-a605-4f18-bd82-7b83e7e16425"/>
+			<Metadata name="Document.TeMa_ЗаказПокупателя.Attribute.БанковскийСчетОрганизации" id="12378074-3d2f-4729-b997-56727ecf041d"/>
+			<Metadata name="Document.TeMa_ЗаказПокупателя.Attribute.ВходящийJSON" id="303147b0-105f-4df2-b33b-6d63c806f53f"/>
+			<Metadata name="Document.TeMa_ЗаказПокупателя.Attribute.IDСделкиAmo" id="34664bd4-88cb-45ec-9b6a-530fbf3210b7"/>
+			<Metadata name="Document.TeMa_ЗаказПокупателя.TabularSection.Товары.Attribute.СуммаНДС" id="3b45e9ae-ff90-481c-8548-86f8ea43bb99"/>
+			<Metadata name="Document.TeMa_ЗаказПокупателя.Attribute.СуммаДокумента" id="4da89f0e-2ef8-4182-acbf-ba1cfe41c98c"/>
+			<Metadata name="Document.TeMa_ЗаказПокупателя.Attribute.Склад" id="58d0783b-04f6-4947-8905-b2319334af58"/>
+			<Metadata name="Document.TeMa_ЗаказПокупателя.Attribute.Контрагент" id="8765cad0-fba2-4c7e-b7e3-4ddd0a5de60e"/>
+			<Metadata name="Document.TeMa_ЗаказПокупателя.Attribute.Договор" id="87943adb-b35a-462f-96ff-f98ad11f6749"/>
+			<Metadata name="Document.TeMa_ЗаказПокупателя.TabularSection.Товары.Attribute.Номенклатура" id="a8c475f9-4698-41d1-8c78-58b9e4973bee"/>
+			<Metadata name="Document.TeMa_ЗаказПокупателя.TabularSection.Товары" id="be911bc1-695b-4e67-b62a-21347706c920"/>
+			<Metadata name="Document.TeMa_ЗаказПокупателя.TabularSection.Товары.Attribute.Количество" id="bfe7e37c-3260-42da-a433-2bc2053fb165"/>
+			<Metadata name="Document.TeMa_ЗаказПокупателя.TabularSection.Товары.Attribute.Сумма" id="c78c4b12-6038-47d5-be73-eb13ac955d4f"/>
+			<Metadata name="Document.TeMa_ЗаказПокупателя.TabularSection.Товары.Attribute.Всего" id="ccb394ab-cd09-44bb-9319-989849ba64b5"/>
+			<Metadata name="Document.TeMa_ЗаказПокупателя.TabularSection.Товары.Attribute.НДС" id="e31bcda9-e288-431c-9a48-7378e3bd9128"/>
+			<Metadata name="Document.TeMa_ЗаказПокупателя.TabularSection.Товары.Attribute.Цена" id="ea97d3b5-cb42-4cab-a3fb-bde259f457b8"/>
+		</Metadata>
+		<Metadata name="Document.ПоступлениеНаРасчетныйСчет" id="00d41587-d043-4c4a-a168-93fd050bf10f" configVersion="c6a4e98cb5f373719a9a56a2a48de5f5cae70274"/>
+		<Metadata name="Document.ПоступлениеНаРасчетныйСчет.ObjectModule" id="00d41587-d043-4c4a-a168-93fd050bf10f.0" configVersion="6c59608a3946cb910ef6f7c74696a5cdee82742c"/>
+		<Metadata name="Document.РеализацияТоваровУслуг" id="afbd0a59-0cfb-4e8d-a6a3-d1d665905edd" configVersion="2d16b7a94cb03a500d993c0b344256c254e79f6b"/>
+		<Metadata name="Document.СчетНаОплатуПокупателю" id="5b2dd65a-c995-483d-93f0-9e86a56c71bd" configVersion="ee798e5bb7170df4739a0375f20b02fd2a8f40a7"/>
+		<Metadata name="Document.СчетНаОплатуПокупателю.ObjectModule" id="5b2dd65a-c995-483d-93f0-9e86a56c71bd.0" configVersion="7517277c71d3663555ddb682f24c2327ac3c36dc"/>
+		<Metadata name="Enum.СтавкиНДС" id="060bb1b6-cf0d-4a85-ab02-ed991e9cd380" configVersion="832f86ba37358fd600ba8ba4b1ccd87579b06413"/>
+		<Metadata name="EventSubscription.TeMa_ПриЗаписиКонтрагента" id="038dce8b-f859-4403-9465-d1dbc5482303" configVersion="96dec150f666f35e658f6a5e3991bb16b93e1972"/>
+		<Metadata name="EventSubscription.TeMa_ПриОплатеСчета" id="73fc33e1-82f4-40bf-8c63-44fe9766b70c" configVersion="3c1edf96cacdd4e69e41b18c41ffc1ab7106410b"/>
+		<Metadata name="HTTPService.TeMa_HTTPСервис" id="81aae077-fb5f-4974-aacf-e750168a4033" configVersion="aa51bdce57389cf3bece1bedfceb79a5fdf3b5c7">
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.Склады" id="0a8a3964-5e48-41d2-b1ab-54a6ba9a05c9"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.Номенклатура" id="0b7a1a2c-0ae2-41f5-ba11-a0ca92457f9e"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.ПолучениеPDFДоговора" id="12008c5d-e47a-4acd-8fdc-c1835a8408e8"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.СтавкаНДС" id="1430f9d0-d15e-4b52-ac43-04629b9eca5a"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.ВходящиеСделки.Method.ПолучитьСписокЗаказов" id="14a9e795-fa8d-4bf2-9f4f-fdb70ad42b3d"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.ПолучениеСчетаPDF" id="3268355a-03ce-4bba-b6bf-c19e0c73d172"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.Контрагенты.Method.ПолучитьКонтрагента" id="3b0187d7-7873-4fc5-914a-eefc86901988"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.Склады.Method.ПолучитьСклады" id="3f096c79-7a6f-428d-820d-9213ee555305"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.КонкретныйЗаказ" id="426d23f7-38a5-46e3-b536-69562938c0cb"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.ГенерацияУПД" id="44a9528f-644a-4b63-963d-b1ffebbfee61"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.ГенерацияДКП.Method.ПолучитьДКП" id="52f2da9e-4f32-4dd7-9cf7-78f3c4b4145a"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.Логи" id="54cc1c45-3594-4045-80ef-579ea28d99ad"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.ДоговорыКонтрагента" id="58aadf45-a893-45dc-92f7-8dd08ceaa4c2"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.ГенерацияДП" id="60da60e4-31a5-4512-9af4-1ce22fdcccb8"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.ПолучениеУПДPDF.Method.СкачатьPDFУПД" id="6b660f0a-d0a2-476b-a660-bc69120719b8"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.Логи.Method.Создать" id="6c6eba70-9346-4834-8a20-3956349fa360"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.ВходящиеСделки.Method.СоздатьЗаказ" id="6ee72d0d-7c97-4771-adbc-913f4f3e1d46"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.ГенерацияДКП" id="6f9ffd52-bf32-4c4b-bc00-3a6fde41346e"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.ГенерацияСчета.Method.СоздатьСчет" id="870bc7fa-0d9b-4032-bad9-2cf30e0eebb5"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.ГенерацияСчета" id="893801d7-7608-4622-8cbd-49c60aec8b39"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.Контрагенты" id="9acd290e-6ee6-4df4-9840-cf37e64ad7a7"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.БанковскиеСчета" id="9c564dc9-f495-405e-bdc4-dff98cfbb8a3"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.ГенерацияУПД.Method.СоздатьУПД" id="9fb9e929-8735-426b-a70b-4eca99d48421"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.ПолучениеСчетаPDF.Method.СкачатьPDFСчета" id="a314053e-d14f-4a17-b1be-761d547f61a1"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.ГенерацияДКП.Method.СоздатьДКП" id="a324b01e-7759-4aaf-a287-9c579a261e73"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.КонкретныйЗаказ.Method.ПолучитьЗаказ" id="acacd0d0-6f69-49ea-afae-875d24b13721"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.БанковскиеСчета.Method.ПолучитьСчета" id="b5cc1370-0f13-457b-93e2-1084511b40c1"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.ПолучениеPDFДоговора.Method.СкачатьPDF" id="b975a2a1-6660-4141-97d4-9557a425cb5a"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.ГенерацияСчета.Method.ПолучитьСписокСчетов" id="bbef7c56-95a1-4839-87e7-f3c02f615415"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.Номенклатура.Method.ПолучитьНоменклатуру" id="bd849db3-60b8-40db-af1b-d57813936148"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.СтавкаНДС.Method.ПолучитьНДС" id="caa43bb3-29cd-4da6-a76e-817bea17a23b"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.Логи.Method.Получить" id="cf4c11eb-9fa8-42c9-ad84-8ed86a785fad"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.ГенерацияДП.Method.СоздатьДП" id="d244191a-c843-4c7c-a3ef-7563dc0e4c6c"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.ТестированиеСвязи" id="d2f7934d-0163-494e-8e6e-f837a3523ce5"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.Контрагенты.Method.СинхронизироватьКонтрагента" id="d4f937cf-fa7e-48db-880b-65a21e8ff158"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.ГенерацияУПД.Method.ПолучитьСписокУПД" id="d7ddfe6d-a160-4409-a2c1-37ccaef0de68"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.ВходящиеСделки" id="e7fb2f52-fe13-44f1-bfb7-599a8ad0f958"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.CORS.Method.Метод1" id="ed1b9174-bca5-4d08-b182-c2122583f0c1"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.CORS" id="eda725dd-e0f5-4d38-97c0-80c80de54e62"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.ДоговорыКонтрагента.Method.Метод1" id="fadb0741-49bb-4832-ab26-3932c82d1705"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.ПолучениеУПДPDF" id="fd89edaf-e25d-4655-bd28-6b41e16f0aff"/>
+			<Metadata name="HTTPService.TeMa_HTTPСервис.URLTemplate.ТестированиеСвязи.Method.PingTest" id="ffc25eee-eb95-4ad3-b1fa-0f1885e6606e"/>
+		</Metadata>
+		<Metadata name="HTTPService.TeMa_HTTPСервис.Module" id="81aae077-fb5f-4974-aacf-e750168a4033.0" configVersion="79ae57c62542018bfaf9e1bef9cadfb9fa6ca0e3"/>
+		<Metadata name="InformationRegister.TeMa_ИдентификаторыAmoCRM" id="df2b0903-9b9a-4e12-a3b7-7416807f1444" configVersion="ca584b80f2434e9d30671e4a4b23a9a6fb4ce327">
+			<Metadata name="InformationRegister.TeMa_ИдентификаторыAmoCRM.Resource.Контрагент" id="433fa051-00b1-4619-a287-174a507f8e8a"/>
+			<Metadata name="InformationRegister.TeMa_ИдентификаторыAmoCRM.Dimension.ИдентификаторAmoCRM" id="5c83ecfa-04f9-46ea-9eda-eb79f13b1818"/>
+		</Metadata>
+		<Metadata name="InformationRegister.TeMa_ИдентификаторыAmoCRM_Договор" id="bab7e83f-7acc-4f92-8301-d9d58b8cef56" configVersion="4a95967465f4b5235bd9de689dc403485214c2be">
+			<Metadata name="InformationRegister.TeMa_ИдентификаторыAmoCRM_Договор.Dimension.ИдентификаторAmoCRM" id="94b8e652-5b5f-4fce-bbfa-5af78485818d"/>
+			<Metadata name="InformationRegister.TeMa_ИдентификаторыAmoCRM_Договор.Resource.Договор" id="a170aa12-c16e-4b62-aa18-d3e79b5a66a8"/>
+			<Metadata name="InformationRegister.TeMa_ИдентификаторыAmoCRM_Договор.Dimension.Версия" id="bc414851-12d9-48ec-b0ee-98036994bd8a"/>
+		</Metadata>
+		<Metadata name="InformationRegister.TeMa_ИдентификаторыAmoCRM_ЗаказПокупателя" id="3a3ded25-3fd8-4c58-84a1-56adbe25929a" configVersion="50cdaf7a7a02cf36626a2c523371dc2452faee04">
+			<Metadata name="InformationRegister.TeMa_ИдентификаторыAmoCRM_ЗаказПокупателя.Dimension.amo_id" id="56418650-1177-42b4-9ebc-64bf6ef373ac"/>
+			<Metadata name="InformationRegister.TeMa_ИдентификаторыAmoCRM_ЗаказПокупателя.Resource.ЗаказПокупателя" id="7c4c1198-b1c4-414a-bed7-d2357309b8a4"/>
+			<Metadata name="InformationRegister.TeMa_ИдентификаторыAmoCRM_ЗаказПокупателя.Dimension.Версия" id="db69299b-2b77-4dd3-8c80-639852c09cdb"/>
+		</Metadata>
+		<Metadata name="InformationRegister.TeMa_ИдентификаторыAmoCRM_Счет" id="4af20f16-b8a2-4600-84bc-5097e7b064d0" configVersion="03abeda5f87d7958c11725f83b58c3d8ee7d37b5">
+			<Metadata name="InformationRegister.TeMa_ИдентификаторыAmoCRM_Счет.Resource.Счет" id="430ea850-2b30-4b5d-ae64-5ead1bbfdef5"/>
+			<Metadata name="InformationRegister.TeMa_ИдентификаторыAmoCRM_Счет.Dimension.Версия" id="4c4d08ee-c687-4649-bf8e-aeed2ef7793d"/>
+			<Metadata name="InformationRegister.TeMa_ИдентификаторыAmoCRM_Счет.Dimension.ИдентификаторAmoCRM" id="6e8dec88-49d8-41ad-a0cf-6f88d6dd287d"/>
+		</Metadata>
+		<Metadata name="InformationRegister.TeMa_ИдентификаторыAmoCRM_УПД" id="418c982b-543f-4b0d-b84e-6403dad45acd" configVersion="990a41e4d84701aef631d68d27869ef4bbf677e7">
+			<Metadata name="InformationRegister.TeMa_ИдентификаторыAmoCRM_УПД.Resource.УПД" id="1d3fa114-ea91-4d16-b9cd-df6323df1012"/>
+			<Metadata name="InformationRegister.TeMa_ИдентификаторыAmoCRM_УПД.Dimension.Версия" id="2aec1c5c-eb6e-4d5c-b80c-bfb151b47bb6"/>
+			<Metadata name="InformationRegister.TeMa_ИдентификаторыAmoCRM_УПД.Dimension.ИдентификаторAmoCRM" id="99cffde4-a78d-4c1d-9bcc-80aa48286941"/>
+		</Metadata>
+		<Metadata name="InformationRegister.TeMa_ЛогиAPI" id="97080697-e12d-4d68-a324-aca966becc90" configVersion="5a28e9f3851977ba2a5a32bdf783e92840de15e6">
+			<Metadata name="InformationRegister.TeMa_ЛогиAPI.Resource.Метод" id="389f3a3e-d50f-415d-a09a-1ae461db06f9"/>
+			<Metadata name="InformationRegister.TeMa_ЛогиAPI.Attribute.ТелоОтвета" id="54c22f8e-8044-4a31-906e-3a99e9ea49cd"/>
+			<Metadata name="InformationRegister.TeMa_ЛогиAPI.Attribute.ТелоЗапроса" id="5db013a7-cf89-4418-863c-95be0ef94d24"/>
+			<Metadata name="InformationRegister.TeMa_ЛогиAPI.Resource.ДатаВремя" id="5efefac4-29dd-4773-b7f4-e8b8970abf6e"/>
+			<Metadata name="InformationRegister.TeMa_ЛогиAPI.Dimension.ИдентификаторЛога" id="629cd9c2-3f31-45f7-9d6c-5b3fd2d44f6f"/>
+			<Metadata name="InformationRegister.TeMa_ЛогиAPI.Resource.КодОтвета" id="8488a19f-56b6-42b6-af62-2aef67e3db28"/>
+			<Metadata name="InformationRegister.TeMa_ЛогиAPI.Resource.Эндпоинт" id="91a25be9-1899-4824-b358-408dbabc348f"/>
+			<Metadata name="InformationRegister.TeMa_ЛогиAPI.Attribute.ТекстОшибки" id="f05458ea-6cf9-403f-95a7-224f8f80a175"/>
+			<Metadata name="InformationRegister.TeMa_ЛогиAPI.Resource.AmoID" id="f97c4f7e-d3af-4414-a9a0-467d1cb1357d"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="c1b234fc-87b5-43bd-909e-39687a400e91" configVersion="18473c0930d8c0a8bae09d56ecdf5ced1c7b6f07"/>
+		<Metadata name="Role.TeMa_ОсновнаяРоль" id="f7ee7e6e-68d4-47bc-ae44-0b8c0410bfde" configVersion="52c0e2cf24b69a5f4a9b30dc85335751ce5ef1f7"/>
+		<Metadata name="Role.АдминистраторСистемы" id="d8ad5d19-443f-4448-8cd5-7073954aa76a" configVersion="304d6c046826c35b593ada750ed336468b9e3b81"/>
+		<Metadata name="Role.АдминистраторСистемы.Rights" id="d8ad5d19-443f-4448-8cd5-7073954aa76a.0" configVersion="55f0b2dc83666a3bce6cb200766eaed0c1615163"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

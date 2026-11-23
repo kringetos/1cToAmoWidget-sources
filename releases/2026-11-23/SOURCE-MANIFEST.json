@@ -1,0 +1,499 @@
+{
+  "prepared_date": "2026-11-23",
+  "base_commit": "1427ab85fdc0f61cfa08275f85f24388adda8bba",
+  "includes_uncommitted_changes": true,
+  "runtime_tests_date": "2026-10-26",
+  "runtime_tests_rerun_for_delivery": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 154,
+      "sha256": "9f36e17148778948bb9b0aff8a712ba14e7244b8c853a7022275d30d145e4229"
+    },
+    {
+      "path": "1c-test-base/.gitignore",
+      "bytes": 35,
+      "sha256": "bfcd53f7a936e0fd68aaae534f078a55bf38186679bbdbad021d3c5e8cd1a0e6"
+    },
+    {
+      "path": "1c-test-base/extension/nomenclature-group.patch",
+      "bytes": 1997,
+      "sha256": "c7cd56ceed827e8c12700a3d5adff52d80ce9c7153ded257dc3ba6ce72f3b477"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/manifest.json",
+      "bytes": 1310,
+      "sha256": "8e08a7294f4f855aa9ff937c806ff8a8b3cf895abe71799ebff67573ce9f5012"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/README.md",
+      "bytes": 1581,
+      "sha256": "30b6d9a517c164f37bb6835d732d7b8724c36dcb5ffacd18b06a014d177098a2"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/Catalogs/TeMa_НастройкиПечатиДоговоров.xml",
+      "bytes": 7728,
+      "sha256": "ec1211adccad9cd8f2968d09563c18863635cb841b1ffc0ac8ccdd0a48602047"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/Catalogs/БанковскиеСчета.xml",
+      "bytes": 2596,
+      "sha256": "3b7b73caeae1f272c351a218aac5faf500f76959e5f2a8f8bffc95d836b16478"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/Catalogs/ДоговорыКонтрагентов.xml",
+      "bytes": 2656,
+      "sha256": "dac99fb28dbb4620a3739515233ed390169bf5e1bdbf3314c12fab5ff7ca68be"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/Catalogs/ДополнительныеОтчетыИОбработки.xml",
+      "bytes": 2776,
+      "sha256": "5ee1cfb414029bc9df0153cc2e67a1ee0f0db3e7a8a82724e39551199c8fac39"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/Catalogs/КлассификаторЕдиницИзмерения.xml",
+      "bytes": 2798,
+      "sha256": "421b2bcbb6a4e4f5867ffdbee51018aced49d8a350b4b56e8081a2e949a81fcb"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/Catalogs/Контрагенты.xml",
+      "bytes": 2548,
+      "sha256": "d07b64ea99fc680ea92f4263bc79e7c681daca65fa0f73c6fdd186287ea53677"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/Catalogs/Номенклатура.xml",
+      "bytes": 3863,
+      "sha256": "b30619e6d5784682ffebc85d67d7e26107215fd38c6bec1c22f4af2033dccc4d"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/Catalogs/Склады.xml",
+      "bytes": 2488,
+      "sha256": "e933bf96f823760fc3d759c4d5a996f4fdfe4903edfc3049af9a3bd9ef8c0c52"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/CommonForms/TeMa_ДанныеAmoCRM/Ext/Form.xml",
+      "bytes": 2325,
+      "sha256": "36d3f56a43c2db792a7096b1ac99e38a9fcde8bca7c54417186161ec6727eff2"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/CommonForms/TeMa_ДанныеAmoCRM.xml",
+      "bytes": 1768,
+      "sha256": "fe47b209ec9b60b67b01c61eea91925c592e8bb67c87d284c0323fae10e772e3"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/CommonModules/TeMa_СобытияСервера/Ext/Module.bsl",
+      "bytes": 17784,
+      "sha256": "a5ff0c0e518753412dac3b2fdad228e625bd58833ae5f3db81eaeb06efdb35bd"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/CommonModules/TeMa_СобытияСервера.xml",
+      "bytes": 1669,
+      "sha256": "d8702fea89d2bb95353b2fb3f686bf09ab106247c4c968429d38edd11eba721a"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/CommonModules/МойМодульПечати/Ext/Module.bsl",
+      "bytes": 2019,
+      "sha256": "5b9ca63534d82c98ae574b95b344f9855256b66e1474a55000b1880f9de3d14a"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/CommonModules/МойМодульПечати.xml",
+      "bytes": 1663,
+      "sha256": "58d0d02bae1fe2395229ab27ee8c48420a10de4fa047b5234b26d3d330db7265"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/ConfigDumpInfo.xml",
+      "bytes": 20018,
+      "sha256": "492b8dd7c6f876b32800656efdd9065c6678e693ec134d2b62397c2ceb11b659"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/Configuration.xml",
+      "bytes": 5753,
+      "sha256": "d78bf0c868b335172f3d828f245abbf0fa3976b31a21d837b4baa5d4073b623c"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/Constants/TeMa_access_token.xml",
+      "bytes": 3198,
+      "sha256": "7730f3f5a9a0f7db7c241f9df3b2711fc6eb1743643ee1776d1851c538525474"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/Constants/TeMa_ДоменнаяЗона.xml",
+      "bytes": 3305,
+      "sha256": "448cc8628702d927b616309ce4f29a99ff61283bdb10c228a7c88163341ccbba"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/Documents/TeMa_ЗаказПокупателя.xml",
+      "bytes": 25885,
+      "sha256": "af43dd98decbf6ef6e2780d7a9a49889dd2be4a867b80b6978c203d0d0f356bc"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/Documents/ПоступлениеНаРасчетныйСчет/Ext/ObjectModule.bsl",
+      "bytes": 3570,
+      "sha256": "bdc5e7ebe32a6e7781a8404c06f6efa789265076e13c578b85e51f08bb608a13"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/Documents/ПоступлениеНаРасчетныйСчет.xml",
+      "bytes": 2885,
+      "sha256": "e21e9ca5fe4afc12ae60d584467f4b6094a12f6a5a7925efdba5289535ca2ea1"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/Documents/РеализацияТоваровУслуг.xml",
+      "bytes": 2710,
+      "sha256": "d1fa0e91b4c08b0663e0dfea02a51be66d7869298cc36cda666c6098d2b6682a"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/Documents/СчетНаОплатуПокупателю/Ext/ObjectModule.bsl",
+      "bytes": 3694,
+      "sha256": "82ba4b5b1457a1d70df6e8091ce594a5a8c72cf220fe23535eb7564d5b745459"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/Documents/СчетНаОплатуПокупателю.xml",
+      "bytes": 2837,
+      "sha256": "0c762d025b20f4d9d26e037b72f62f5a2c1871bdb1c15453ec9e587ba7488fb0"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/Enums/СтавкиНДС.xml",
+      "bytes": 2029,
+      "sha256": "c5c19503237a7f0bb27a787fd04267642f3922ad23261301d8171235178be60a"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/EventSubscriptions/TeMa_ПриЗаписиКонтрагента.xml",
+      "bytes": 1606,
+      "sha256": "87eea7c35ea8781f135e905315986b98e02d8759068d33ba3a94d22cdc3f93c2"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/EventSubscriptions/TeMa_ПриОплатеСчета.xml",
+      "bytes": 1621,
+      "sha256": "2c9ce29409cce8f9295afb0f101a34f02cd8786013737409a5759f8745aefc3b"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/HTTPServices/TeMa_HTTPСервис/Ext/Module.bsl",
+      "bytes": 150012,
+      "sha256": "57ac656d66e501eb39c23179c29f82fb5aa6a0c923ec6b8503a91a9bac3d6ccd"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/HTTPServices/TeMa_HTTPСервис.xml",
+      "bytes": 19925,
+      "sha256": "1f90daead998da2f7a0e1e0d9767758b858c1796a0ebdd0b073710c50c4a8116"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/InformationRegisters/TeMa_ИдентификаторыAmoCRM.xml",
+      "bytes": 7171,
+      "sha256": "e9d0ef338e027a73308a315b939f1d16de67e5e82adfa32c0aabcb1bf9c0bf4d"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/InformationRegisters/TeMa_ИдентификаторыAmoCRM_Договор.xml",
+      "bytes": 13026,
+      "sha256": "a4849a1ab55b059908d184a223247c00ad83420fbc33b91bf572010688a96200"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/InformationRegisters/TeMa_ИдентификаторыAmoCRM_ЗаказПокупателя.xml",
+      "bytes": 13146,
+      "sha256": "404feb90d0d242fd8cb71fe2cabe8b903cdaddd4907e8b8d6f3f5d55a5e2b13c"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/InformationRegisters/TeMa_ИдентификаторыAmoCRM_Счет.xml",
+      "bytes": 12965,
+      "sha256": "689e11cceec3f00e864c4a4214d91ca3abac7d0713ffcf52ce4491b9b194f114"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/InformationRegisters/TeMa_ИдентификаторыAmoCRM_УПД.xml",
+      "bytes": 12943,
+      "sha256": "77f7641184fb05164ea0b3f7a067791f840be5fe9069b8833e9d17f3426f3921"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/InformationRegisters/TeMa_ЛогиAPI.xml",
+      "bytes": 16623,
+      "sha256": "baec1578dc900ccf2b383e27177fdcc56140af0cbfc6ca680eb0f28ca2886465"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/Languages/Русский.xml",
+      "bytes": 1338,
+      "sha256": "cb5f666b80cc70ee5fdb912964ec1fd3c31d1f28d417b98a38c484948b87c44a"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/Roles/TeMa_ОсновнаяРоль.xml",
+      "bytes": 1158,
+      "sha256": "a88f6c7b8afdbc5783addd042ea8569fa3acfb5bc1ae49f329547aee367808ec"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/Roles/АдминистраторСистемы/Ext/Rights.xml",
+      "bytes": 5590,
+      "sha256": "c2eedce6c69bf41af8fda87b70c150e4fa84fb9629caa388afaad601a253aee1"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/src/Roles/АдминистраторСистемы.xml",
+      "bytes": 1459,
+      "sha256": "cd699ebb2374c80739d19359be3b2463257df171881e93cd38638a137fa45f07"
+    },
+    {
+      "path": "1c-test-base/extension/price-contract-fix/ИнтеграцияAmoCRM_цены_договоры.cfe",
+      "bytes": 69193,
+      "sha256": "a932f2511c3ec41ab267b592b85de4ed613bee19d759ff02f9eb4ee676fff5f4"
+    },
+    {
+      "path": "1c-test-base/extension/TeMa_HTTPСервис.Module.bsl",
+      "bytes": 153539,
+      "sha256": "fa092ffaba6b1713c51fcf90376f916ce02a77dd79d323ba1ac8062f2aba7825"
+    },
+    {
+      "path": "1c-test-base/extension/ИнтеграцияAmoCRM_исправление_группы.cfe",
+      "bytes": 68809,
+      "sha256": "0629db11e7c8d5cfb663b8618187dd14b0d8880bea01d96e339033c85bbca649"
+    },
+    {
+      "path": "1c-test-base/manifest.json",
+      "bytes": 1844,
+      "sha256": "4fa479f4fdb745b53dbbb7820f0ec776c37324de73c8684b22fc6ae99de0f37b"
+    },
+    {
+      "path": "1c-test-base/README.md",
+      "bytes": 6290,
+      "sha256": "a12ebc873cd0b4fe84191e36494b20cfdd23a3e877110237983f361475b9d879"
+    },
+    {
+      "path": "1c-test-base/Restore-Dump.ps1",
+      "bytes": 1638,
+      "sha256": "b25c6c5ef6877a88e56e0b9079ffff9ad2f52d521c65242e7aaca154910d2267"
+    },
+    {
+      "path": "1c-test-base/verification/Enable-TestLan.ps1",
+      "bytes": 3855,
+      "sha256": "15f9d3dd3afaea5266d966616c174f7fd0224ae4e3cd90ed952bf6b6b6e5497f"
+    },
+    {
+      "path": "1c-test-base/verification/extension-check.log.txt",
+      "bytes": 43,
+      "sha256": "db2fafff0ffb270936356597f1d2bed48d5f0383744e0832be3af4e824567dc8"
+    },
+    {
+      "path": "1c-test-base/verification/harness/PriceTestAmo/Ext/ObjectModule.bsl",
+      "bytes": 76080,
+      "sha256": "d80311704b3f1f781749f4d907c3c1dc14265e8cc21165c3fcd672d551d490e8"
+    },
+    {
+      "path": "1c-test-base/verification/harness/PriceTestAmo.xml",
+      "bytes": 857,
+      "sha256": "e02de5679393ae9282250951a452f633e6e1c2ba693e7bab4f8c3b70b2c99c49"
+    },
+    {
+      "path": "1c-test-base/verification/installed-modules.json",
+      "bytes": 1021,
+      "sha256": "a43f0bfc3456493bf43166a598241ad0cf813555a644f141ed1b631d38cb87a3"
+    },
+    {
+      "path": "1c-test-base/verification/Prepare-TestPublication.ps1",
+      "bytes": 7806,
+      "sha256": "c031670edb904584e61abdea8faab841d9494fe0d1b686bae883e92a42961c0b"
+    },
+    {
+      "path": "1c-test-base/verification/prepare_harness.py",
+      "bytes": 3027,
+      "sha256": "8457764a011d981c5042cac58fb7873089b35715344851751ec1b072472f124d"
+    },
+    {
+      "path": "1c-test-base/verification/price-contract-results.json",
+      "bytes": 873,
+      "sha256": "0a0a421a1906e8282fa4e4eb8829d48047a1f484ff8a1cc551dfccb03d1ba473"
+    },
+    {
+      "path": "1c-test-base/verification/price-contract-syntax.txt",
+      "bytes": 43,
+      "sha256": "db2fafff0ffb270936356597f1d2bed48d5f0383744e0832be3af4e824567dc8"
+    },
+    {
+      "path": "1c-test-base/verification/price-group-regression.json",
+      "bytes": 2044,
+      "sha256": "190952d59fdec99763fa30fafbc4996b54bd104a14d072040cb3820df19952d6"
+    },
+    {
+      "path": "1c-test-base/verification/PriceContractTests.bsl",
+      "bytes": 13038,
+      "sha256": "f1b0cf5b683de51b9582a9e24da115147644dbe7dbdaa520d6520ebde346660d"
+    },
+    {
+      "path": "1c-test-base/verification/REPORT.md",
+      "bytes": 11857,
+      "sha256": "a0a641caf268d11993b9234b9d341a3dcbb1143e56fcac7a6a86e15934431f7b"
+    },
+    {
+      "path": "1c-test-base/verification/runtime-results.json",
+      "bytes": 2044,
+      "sha256": "190952d59fdec99763fa30fafbc4996b54bd104a14d072040cb3820df19952d6"
+    },
+    {
+      "path": "1c-test-base/verification/RuntimeTests.bsl",
+      "bytes": 17249,
+      "sha256": "616feae55344f7d4cfa545f271980b03d2a9ed01f1baa15221de1a16ab64da67"
+    },
+    {
+      "path": "1c-test-base/verification/static-checks.json",
+      "bytes": 807,
+      "sha256": "d48871b4573185d9e29bea63fc5d92b05a62bfd3628f01b481a0a9376c4ef1e0"
+    },
+    {
+      "path": "1c-test-base/Verify-Extension.py",
+      "bytes": 6249,
+      "sha256": "ff9c0e127859a0678f45a132aa8bdafcd4db8d87a0fdf7733d8b40de730e8c6c"
+    },
+    {
+      "path": "backend/main.py",
+      "bytes": 751,
+      "sha256": "cc23b10feb8249d9712de253ef3b2590caffc926f42300c2744f28cbbedcbe8d"
+    },
+    {
+      "path": "backend/requirements.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/API-ROUTES.md",
+      "bytes": 2220,
+      "sha256": "0a8c52af3718d85006fb32f1b492589b57090e33a591e305cf6713e7b96593d2"
+    },
+    {
+      "path": "docs/API.md",
+      "bytes": 5715,
+      "sha256": "c3c51cea6697fd3d367f0e827681f6cdde83edae6dd1490ba33050fa53a358b6"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 4046,
+      "sha256": "08fe110ae6dc24661cc33142078e0544baa4355f5054d3d615be6827bdba8552"
+    },
+    {
+      "path": "docs/BUSINESS-RULES.md",
+      "bytes": 5520,
+      "sha256": "be09ea55443d3f8cadc9e956186120bf5aabd6dedaed1cf9494621d1be7b47e8"
+    },
+    {
+      "path": "docs/DELIVERY-CHECKS.md",
+      "bytes": 2041,
+      "sha256": "c38461e24c1fce4e095989e6472d06005adb1a7d44b1b0fdfff9aac87fff73a9"
+    },
+    {
+      "path": "docs/INSTALLATION.md",
+      "bytes": 6716,
+      "sha256": "9f383303b3142dea4ca6f42116d4c1dee2062afc2187a71cc9afd1f2ae189593"
+    },
+    {
+      "path": "docs/OPERATIONS.md",
+      "bytes": 4423,
+      "sha256": "40c0c5fbc3490bdf3b7c170b92929baceca1a164d6d5633e11c5bedb88255dcf"
+    },
+    {
+      "path": "docs/SOURCE-DELIVERY.md",
+      "bytes": 4894,
+      "sha256": "9faf817727f8570734787e6092492ee47e0e04ac9d022b18d8b003f10fb3945d"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 6336,
+      "sha256": "32722be6fa2da5b66bac1969d79cb6db4a4b050f8b2a6175a316348ce3af17b4"
+    },
+    {
+      "path": "frontend/package-lock.json",
+      "bytes": 61840,
+      "sha256": "d86f886d8564f4064a3d05232641b892453230b37c7c4ea0ca7340d4e3fb91ac"
+    },
+    {
+      "path": "frontend/package.json",
+      "bytes": 467,
+      "sha256": "a0dc23d2274c5dd7b1e7296c30f977fba98c787774a3e2f1e7d3f96ca12a9f7a"
+    },
+    {
+      "path": "frontend/src/components/AdvancedSettings.jsx",
+      "bytes": 9617,
+      "sha256": "5ac9da9da628cfd1cd7ec65fd054a071c7b5f28ccec88bc8c438642534772466"
+    },
+    {
+      "path": "frontend/src/components/OneCCompanyButton.jsx",
+      "bytes": 51565,
+      "sha256": "fc5f16b484d36a2398d8fdc2dd42b5597e8c7dc46701ba3079a3f01ae67fed9e"
+    },
+    {
+      "path": "frontend/src/components/OneCIntegrationButton.jsx",
+      "bytes": 58418,
+      "sha256": "d0fc5ab8ce92d49edbce1b660cc855304c1ce583372d97303302e3d28b5d8285"
+    },
+    {
+      "path": "frontend/src/env.js",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "frontend/src/main.jsx",
+      "bytes": 4371,
+      "sha256": "ac71c3aab3d27a87d958e71b1178fc5e13a992a34bfb8aaf7432f95c345fc19a"
+    },
+    {
+      "path": "frontend/vite.config.js",
+      "bytes": 625,
+      "sha256": "74ea3f06cb1230121d31715e75553f1944fae7d3dd07b19cab65a11129fc560a"
+    },
+    {
+      "path": "frontend/widget/app.js",
+      "bytes": 266803,
+      "sha256": "0d5e5fbd72b9d608a4bcbffb1baa447b59adfa1a56d16092b3a113bef1782ca6"
+    },
+    {
+      "path": "frontend/widget/i18n/ru.json",
+      "bytes": 784,
+      "sha256": "2c72a8d5cbd53a1e259a19630e44b7c8016d13080031ad4035e2d77cacfc0cfb"
+    },
+    {
+      "path": "frontend/widget/images/logo.png",
+      "bytes": 6078,
+      "sha256": "fa77851dafd729e3b7db58d2968ef89fcd4cc23f2f48d45d8d468b2d6e56ecf9"
+    },
+    {
+      "path": "frontend/widget/images/logo_dp.png",
+      "bytes": 11029,
+      "sha256": "d66ea89d6eec4fb943c639787d500129dfa270b952121bebe34ca58ab7bc183e"
+    },
+    {
+      "path": "frontend/widget/images/logo_main.png",
+      "bytes": 53181,
+      "sha256": "3450180bd4da5745ecc687f7881d20e629f1a36b97037fccc6a5c26acc567b1e"
+    },
+    {
+      "path": "frontend/widget/images/logo_medium.png",
+      "bytes": 6404,
+      "sha256": "3f51855ba0f686cc0ed2d39a3181decdef874712b0f313bfee4ca0973c8ba621"
+    },
+    {
+      "path": "frontend/widget/images/logo_min.png",
+      "bytes": 6139,
+      "sha256": "2b93284bae58414e42b32747d3bc5db8f98361419923d0da89df1ae640ec5aa5"
+    },
+    {
+      "path": "frontend/widget/images/logo_small.png",
+      "bytes": 6079,
+      "sha256": "606eb5815cbd39cefeb0e58395e87627874757e7e97ecb0b9bc2525fdecbe38b"
+    },
+    {
+      "path": "frontend/widget/manifest.json",
+      "bytes": 1397,
+      "sha256": "2fe740822acd252d319d233341f9b2b172217d001ef702696385de308d8c3adb"
+    },
+    {
+      "path": "frontend/widget/script.js",
+      "bytes": 1708,
+      "sha256": "65524057c62d953cefc68b31122cc199e2083ac55d3f93091878a8ce0abf3567"
+    },
+    {
+      "path": "frontend/widget.zip",
+      "bytes": 165154,
+      "sha256": "8a853e060220821c3dcc5a12b6f450a27c73ccc990d55662ed3f595f8873ccdd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3584,
+      "sha256": "ad43c6b949859dc676f51dca6e5be99875045d8c7482efe79ca681cf6f015d3e"
+    },
+    {
+      "path": "tools/prepare_sources.py",
+      "bytes": 7665,
+      "sha256": "5a933254b83042a9cb9f17f1583ec87f03f79bd977b00537309ef142396abb84"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "widget": {
+    "name": "Интеграция 1С Документы",
+    "description": "Кнопка для отправки данных в 1С",
+    "short_description": "Документы 1С"
+  },
+  "settings": {
+    "server_url": "URL сервера бэкенда",
+    "login_1c": "Логин для подключения к 1С",
+    "password_1c": "Пароль для подключения к 1С",
+    "deal_button_field": "ID поля для кнопки (Сделка)",
+    "company_button_field": "ID поля для кнопки (Компания)",
+    "Access_token_Amocrm": "Access token для amoCRM",
+    "n8n_url": "URL n8n сервера"
+  },
+  "advanced": {
+    "title": "Дополнительные настройки 1С"
+  }
+}

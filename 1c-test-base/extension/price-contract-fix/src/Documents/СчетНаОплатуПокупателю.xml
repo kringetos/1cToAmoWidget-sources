@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Document uuid="5b2dd65a-c995-483d-93f0-9e86a56c71bd">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СчетНаОплатуПокупателю" category="Object">
+				<xr:TypeId>59de10ff-07c3-4159-95a4-23feda363280</xr:TypeId>
+				<xr:ValueId>7a5fd66a-ce84-4def-acbd-b7560c806067</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СчетНаОплатуПокупателю" category="Ref">
+				<xr:TypeId>0c106fbb-6ba3-4a4b-b9be-007b56aee6b3</xr:TypeId>
+				<xr:ValueId>74a3c4d1-b19f-4028-9528-ddef419aa9d2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СчетНаОплатуПокупателю" category="Selection">
+				<xr:TypeId>77708ab8-b57c-4c3c-89fd-87c587b4070c</xr:TypeId>
+				<xr:ValueId>17b7d6b6-c710-4cea-bcbd-d8af15f9aa58</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СчетНаОплатуПокупателю" category="List">
+				<xr:TypeId>49f6e7f9-73fd-478c-904a-1cff5791de1b</xr:TypeId>
+				<xr:ValueId>427f568d-2fed-453d-bb9f-906df5c5b123</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СчетНаОплатуПокупателю" category="Manager">
+				<xr:TypeId>8713eda7-11f6-47a5-a868-17ee67d126cd</xr:TypeId>
+				<xr:ValueId>3064f03a-fdf5-4648-a434-2fc31f3e65ce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СчетНаОплатуПокупателю</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0ff61b1f-319d-49ab-b803-5631722395e9</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>
